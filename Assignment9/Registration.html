@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="Container">
+    <h2 class="title">Sign up</h2>
+    <form action="#" method="post" id="customerForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="item">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required />
+      </div>
+      <div class="item">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="item">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <div class="item">
+        <label for="cPassword">Confirm Password:</label>
+        <input type="password" id="cPassword" name="cPassword" />
+      </div>
+      <div class="item">
+        <label for="birth">Date of Birth:</label>
+        <input type="date" id="birth" name="birth" />
+      </div>
+      <div class="item">
+        <label for="photo">Insert your photo:</label>
+        <input type="file" id="photo" name="photo" accept=".pdf,.doc,.docx,.txt" required />
+      </div>
+      <div class="item">
+        <label for="resume">Insert your resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx,.txt" required />
+      </div>
+      <div class="item">
+        <label for="securityQuestions">Security Questions:</label>
+        <textarea id="securityQuestions" name="securityQuestions" rows="4"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="scales" name="scales" />
+        <label for="scales">Scales</label>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
